@@ -1,25 +1,25 @@
 {
   "description" : "",
-  "name" : "Firefox",
+  "name" : "apps-rss",
   "rules" : [
     {
       "action" : "allow",
       "ports" : "80",
-      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "process" : "\/Applications\/Reeder.app\/Contents\/MacOS\/Reeder",
       "protocol" : "tcp",
       "remote" : "any"
     },
     {
       "action" : "allow",
       "ports" : "443",
-      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "process" : "\/Applications\/Reeder.app\/Contents\/MacOS\/Reeder",
       "protocol" : "tcp",
       "remote" : "any"
     },
     {
       "action" : "allow",
       "ports" : "443",
-      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "process" : "\/Applications\/Reeder.app\/Contents\/MacOS\/Reeder",
       "protocol" : "udp",
       "remote" : "any"
     }

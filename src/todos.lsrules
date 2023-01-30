@@ -1,6 +1,6 @@
 {
   "description" : "",
-  "name" : "Todoist",
+  "name" : "apps-todos",
   "rules" : [
     {
       "action" : "allow",

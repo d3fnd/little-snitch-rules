@@ -1,25 +1,25 @@
 {
   "description" : "",
-  "name" : "Reeder",
+  "name" : "apps-browsers",
   "rules" : [
     {
       "action" : "allow",
       "ports" : "80",
-      "process" : "\/Applications\/Reeder.app\/Contents\/MacOS\/Reeder",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
       "protocol" : "tcp",
       "remote" : "any"
     },
     {
       "action" : "allow",
       "ports" : "443",
-      "process" : "\/Applications\/Reeder.app\/Contents\/MacOS\/Reeder",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
       "protocol" : "tcp",
       "remote" : "any"
     },
     {
       "action" : "allow",
       "ports" : "443",
-      "process" : "\/Applications\/Reeder.app\/Contents\/MacOS\/Reeder",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
       "protocol" : "udp",
       "remote" : "any"
     }

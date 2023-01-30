@@ -1,6 +1,6 @@
 {
   "description" : "",
-  "name" : "1password",
+  "name" : "apps-vaults",
   "rules" : [
     {
       "action" : "allow",
