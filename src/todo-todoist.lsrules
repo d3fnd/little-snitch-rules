@@ -1,0 +1,28 @@
+{
+  "description" : "",
+  "name" : "Todoist",
+  "rules" : [
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Todoist.app\/Contents\/MacOS\/Todoist",
+      "protocol" : "tcp",
+      "remote-domains" : [
+        "stripe.com",
+        "stripe.network"
+      ]
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Todoist.app\/Contents\/MacOS\/Todoist",
+      "protocol" : "tcp",
+      "remote-domains" : [
+        "d3ptyyxy2at9ui.cloudfront.net",
+        "datadoghq.com",
+        "dcff1xvirvpfp.cloudfront.net",
+        "todoist.com"
+      ]
+    }
+  ]
+}
