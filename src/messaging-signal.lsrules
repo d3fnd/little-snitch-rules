@@ -1,0 +1,13 @@
+{
+  "description" : "",
+  "name" : "Signal",
+  "rules" : [
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Signal.app\/Contents\/MacOS\/Signal",
+      "protocol" : "tcp",
+      "remote-domains" : "signal.org"
+    }
+  ]
+}
