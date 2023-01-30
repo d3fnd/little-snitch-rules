@@ -22,6 +22,27 @@
       "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
       "protocol" : "udp",
       "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
+      "protocol" : "udp",
+      "remote" : "any"
     }
   ]
 }
