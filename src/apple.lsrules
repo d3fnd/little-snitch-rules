@@ -13,6 +13,11 @@
       "action" : "deny",
       "process" : "\/System\/Library\/PrivateFrameworks\/GameCenterFoundation.framework\/Versions\/A\/gamed",
       "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "process" : "\/System\/Library\/CoreServices\/Spotlight.app\/Contents\/MacOS\/Spotlight",
+      "remote" : "any"
     }
   ]
 }
