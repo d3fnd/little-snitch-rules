@@ -1,0 +1,27 @@
+{
+  "description" : "",
+  "name" : "Reeder",
+  "rules" : [
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/Applications\/Reeder.app\/Contents\/MacOS\/Reeder",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Reeder.app\/Contents\/MacOS\/Reeder",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Reeder.app\/Contents\/MacOS\/Reeder",
+      "protocol" : "udp",
+      "remote" : "any"
+    }
+  ]
+}
