@@ -1,0 +1,18 @@
+{
+  "description" : "",
+  "name" : "apps-apple",
+  "rules" : [
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Calendar.app\/Contents\/MacOS\/Calendar",
+      "protocol" : "tcp",
+      "remote-domains" : "weather.com"
+    },
+    {
+      "action" : "deny",
+      "process" : "\/System\/Library\/PrivateFrameworks\/GameCenterFoundation.framework\/Versions\/A\/gamed",
+      "remote" : "any"
+    }
+  ]
+}
