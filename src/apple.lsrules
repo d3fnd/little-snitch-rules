@@ -4,6 +4,62 @@
   "rules" : [
     {
       "action" : "allow",
+      "ports" : "8443",
+      "process" : "\/System\/Library\/Frameworks\/Accounts.framework\/Versions\/A\/Support\/accountsd",
+      "protocol" : "tcp",
+      "remote-domains" : "icloud.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "8843",
+      "process" : "\/System\/Library\/Frameworks\/Accounts.framework\/Versions\/A\/Support\/accountsd",
+      "protocol" : "tcp",
+      "remote-domains" : "icloud.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "25",
+      "process" : "\/System\/Library\/Frameworks\/Accounts.framework\/Versions\/A\/Support\/accountsd",
+      "protocol" : "tcp",
+      "remote-domains" : "me.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "143",
+      "process" : "\/System\/Library\/Frameworks\/Accounts.framework\/Versions\/A\/Support\/accountsd",
+      "protocol" : "tcp",
+      "remote-domains" : "me.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "465",
+      "process" : "\/System\/Library\/Frameworks\/Accounts.framework\/Versions\/A\/Support\/accountsd",
+      "protocol" : "tcp",
+      "remote-domains" : "me.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "585",
+      "process" : "\/System\/Library\/Frameworks\/Accounts.framework\/Versions\/A\/Support\/accountsd",
+      "protocol" : "tcp",
+      "remote-domains" : "me.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "587",
+      "process" : "\/System\/Library\/Frameworks\/Accounts.framework\/Versions\/A\/Support\/accountsd",
+      "protocol" : "tcp",
+      "remote-domains" : "me.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "993",
+      "process" : "\/System\/Library\/Frameworks\/Accounts.framework\/Versions\/A\/Support\/accountsd",
+      "protocol" : "tcp",
+      "remote-domains" : "me.com"
+    },
+    {
+      "action" : "allow",
       "ports" : "443",
       "process" : "\/System\/Applications\/Calendar.app\/Contents\/MacOS\/Calendar",
       "protocol" : "tcp",
