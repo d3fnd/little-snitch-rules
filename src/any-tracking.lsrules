@@ -4,7 +4,15 @@
   "rules" : [
     {
       "action" : "deny",
+      "remote-domains" : "bugsnag.com"
+    },
+    {
+      "action" : "deny",
       "remote-domains" : "google-analytics.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "googletagmanager.com"
     },
     {
       "action" : "deny",
