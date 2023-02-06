@@ -1,0 +1,18 @@
+{
+  "description" : "",
+  "name" : "any-tracking",
+  "rules" : [
+    {
+      "action" : "deny",
+      "remote-domains" : "google-analytics.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "rollout.io"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "sentry.io"
+    }
+  ]
+}
