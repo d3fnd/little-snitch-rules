@@ -74,6 +74,13 @@
       "action" : "deny",
       "process" : "\/System\/Library\/CoreServices\/Spotlight.app\/Contents\/MacOS\/Spotlight",
       "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Stocks.app\/Contents\/PlugIns\/StocksWidget.appex\/Contents\/MacOS\/StocksWidget",
+      "protocol" : "tcp",
+      "remote-domains" : "apple.news"
     }
   ]
 }
