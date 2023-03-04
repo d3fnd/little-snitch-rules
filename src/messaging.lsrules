@@ -50,7 +50,7 @@
       "process" : "\/Applications\/Discord.app\/Contents\/MacOS\/Discord",
       "protocol" : "udp",
       "remote-domains" : "discordapp.com"
-    }
+    },
     {
       "action" : "allow",
       "ports" : "443",
