@@ -23,6 +23,13 @@
         "dcff1xvirvpfp.cloudfront.net",
         "todoist.com"
       ]
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Obsidian.app\/Contents\/MacOS\/Obsidian",
+      "protocol" : "tcp",
+      "remote-domains" : "obsidian.md"
     }
   ]
 }
